@@ -1,7 +1,7 @@
 # stock-analysis
 ## Overview of Project
 ## Results
-'''VBA
+
     '1a) Create a ticker Index
     tickerIndex = 0
 
@@ -59,7 +59,7 @@
         Cells(4 + i, 3).Value = (tickerEndingPrices(i) / tickerStartingPrices(i)) - 1
         
     Next i
-'''
+
 
 ![2017 Run Time](Resources/VBA_Challenge_2017.PNG)
 
