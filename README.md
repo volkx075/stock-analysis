@@ -1,8 +1,8 @@
-# stock-analysis
+# Stock Analysis
 ## Overview of Project
 Steve is analyzing green energy stocks and wants our help. We've already created VBA script to give him an analysis at the click of a button. However, he wants us to change our code so we can include data over the last few years. Our current code will work with dozens of stocks, but not thousands. We need to change that by refactoring our code.
 ## Results
-I started with copying the original code. I changed three variables to arrays: ticker volumes, ticker starting prices, and ticker ending prices. I also created a tickerIndex variable. Below is the part of the code I refactored.
+I started with copying the original code. I changed three variables to arrays: ticker volumes, ticker starting prices, and ticker ending prices. Adding more arrays will store data efficiently and can store more data. I also created a tickerIndex variable. My goal is to have the same outcome as the original code did, but have it be more efficient. Below is the part of the code I refactored.
 
 
     '1a) Create a ticker Index
@@ -75,6 +75,6 @@ The original code's runtime was 0.629 seconds for 2018. The image below shows th
 ![2018 Run Time](Resources/VBA_Challenge_2018.png)
 ## Summary
 ### Advantages and Disadvantages of Refactoring Code
-There are advantages to refactoring code. One of the biggest advantages is effeciency. Effecient code is more organized, takes fewer steps, and easier to fix bugs. If code appears to be messy or takes way more steps than it should, then refactoring should be done. However, there are some disadvantages to refactoring. You don't want to refactor code if you don't have enough time. Also, if refactoring code costs more than just rewriting the code from the beginning.
+There are advantages to refactoring code. One of the biggest advantages is efficiency. Efficient code is more organized, takes fewer steps, and easier to fix bugs. If code appears to be messy or takes way more steps than it should, then refactoring should be done. However, there are some disadvantages to refactoring. You don't want to refactor code if you don't have enough time. Also, if refactoring code costs more than just rewriting the code from the beginning.
 ### Advantages and Disadvantages of the Original and Refactored VBA Script
-The biggest advantage of the refactored VBA script was the run time. Changing three of the variables to arrays and adding the tickerIndex, completely descreased the run time. Another advantage is the organization. The code looks a lot cleaner. It has three separate loops and no nested loops, whereas, the original code had a nested loop. All these advantages were the disadvantages of the original code. The original code had a longer run time and was not as organized.
+The biggest advantage of the refactored VBA script was the run time. Changing three of the variables to arrays and adding the tickerIndex, completely decreased the run time. Another advantage is the organization. The code looks a lot cleaner. It has three separate loops and no nested loops, whereas, the original code had a nested loop. All these advantages were the disadvantages of the original code. The original code had a longer run time and was not as organized.
