@@ -64,10 +64,10 @@ I changed three variables to arrays: ticker volumes, ticker starting prices, and
     Next i
 
 
-The original code's runtime was 0.668 seconds for 2017. The image below shows the runtime of the refactored code for 2017. This shows the refactored code runs faster than the original code.
+The original code's runtime was 0.668 seconds for 2017. The image below shows the runtime of the refactored code for 2017. This shows the refactored code runs faster than the original code.\
 ![2017 Run Time](Resources/VBA_Challenge_2017.PNG)
 
-The original code's runtime was 0.629 seconds for 2018. The image below shows the runtime of hte refactored code for 2018. This shows the refactored code runs faster than the original code.
+The original code's runtime was 0.629 seconds for 2018. The image below shows the runtime of hte refactored code for 2018. This shows the refactored code runs faster than the original code.\
 ![2018 Run Time](Resources/VBA_Challenge_2018.png)
 ## Summary
 ### Advantages and Disadvantages of Refactoring Code
