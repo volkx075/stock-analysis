@@ -64,6 +64,9 @@ I started with copying the original code. I changed three variables to arrays: t
     Next i
 
 Stock performances in 2017 performed much higher than they did in 2018. All stocks went up in 2017 except for TERP. Four of the rising stocks went up over 100%. In 2018, all stocks went down except ENPH and RUN.\
+![2017 Stocks](Resources/VBA_Challenge_2017_Stocks.PNG)
+
+![2018 Stocks](Resources/VBA_Challenge_2018_Stocks.PNG)
 
 The original code's runtime was 0.668 seconds for 2017. The image below shows the runtime of the refactored code for 2017. This shows the refactored code runs faster than the original code.\
 ![2017 Run Time](Resources/VBA_Challenge_2017.PNG)
